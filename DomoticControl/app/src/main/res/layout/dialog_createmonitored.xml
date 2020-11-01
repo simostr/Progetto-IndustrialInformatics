@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_title"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_namespace"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/dialog_mi_edtNamespace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/dialog_mi_namespace"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_nodeindex"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/dialog_mi_edtNodeID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/dialog_mi_nodeindex"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_SamplingInterval"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/dialog_mi_edtSamplingInterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/dialog_mi_SamplingInterval"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_queuesize"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/dialog_mi_edtQueueSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/dialog_mi_queuesize"
+                android:inputType="number"
+                android:textAlignment="center" />
+
+            <CheckBox
+                android:id="@+id/dialog_mi_checkDiscardOldest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/dialog_mi_discardoldest" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_filter"
+                android:textAlignment="center" />
+
+            <RadioGroup
+                android:id="@+id/dialog_mi_rdgroupDeadband"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/dialog_mi_rdAbsolute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/dialog_mi_rbAbsoluteFil"
+                    android:textAlignment="viewStart" />
+
+                <RadioButton
+                    android:id="@+id/dialog_mi_rdPercentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dialog_mi_rbPercentageFil" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_deadband"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/dialog_mi_edtValDeadband"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/dialog_mi_deadband"
+                android:inputType="numberDecimal"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_mi_timestamptype"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/dialog_mi_spinnerTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/dialog_mi_btnOk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@android:string/ok" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

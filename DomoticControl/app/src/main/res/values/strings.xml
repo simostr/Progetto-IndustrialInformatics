@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">DomoticControl</string>
+    <string name="infoMessage">Questa applicazione in versione demo,
+        è stata sviluppata per mostrare le potenzialità dello standard OPC UA e per interagire con un server apposito.
+        Sviluppato da uno studente dell\'Università degli Studi di Catania (Italy) per il corso 
+        di Informatica Industriale.</string>
+    <string name="ActiveSessions">Sessioni attive</string>
+    <string name="SelectSession">Lista Sessioni Attive</string>
+    <string name="card_session_url">URL:</string>
+    <string name="card_session_sessiondid">SESSION ID:</string>
+    <string name="card_session_endppint">ENDPOINT:</string>
+    <string name="card_session_security_mode">SECURITY MODE:</string>
+    <string name="browsing_button">Browsing</string>
+    <string name="session_menu_eliminaSessione">Elimina sessione</string>
+    <string name="session_menu_listSub">Lista Subscription</string>
+    <string name="closeSession">Chiudi sessione</string>
+    <string name="closeSessionMessage">Chiudendo la sessione verrano eliminate anche le subscription. Vuoi continuare?</string>
+
+    <string name="Text_camera">camera</string>
+    <string name="Accendi_String">Accendi</string>
+    <string name="Spegni_String">Spegni</string>
+    <string name="Text_salotto">salotto</string>
+    <string name="Text_bagno">bagno</string>
+    <string name="Text_aggiorna">aggiorna</string>
+    <string name="navigation_drawer_open">Apri barra di navigazione</string>
+    <string name="navigation_drawer_close">Chiudi barra di navigazione</string>
+    <string name="connect_Button">Discovery Endpoints</string>
+    <string name="Luci_String">Luci</string>
+    <string name="Sensors_String">Sensori</string>
+    <string name="Subscription_String">Subscription</string>
+    <string name="Connection_Title">Inserisci OPC Server Address</string>
+    <string name="Subscription_Title">Lista Subscription</string>
+    <string name="EndPointsNonTrovati">Endpoints non trovati</string>
+    <string name="ServerDown">Server non trovato</string>
+    <string name="SelezioneEndpoint">Vuoi collegarti a questo endpoint</string>
+    <string name="SessioneNonCreata">La sessionElementOPC non può essere creata</string>
+    <string name="NonSupportato">Non ancora supportato</string>
+    <string name="ProtocolloNonSupportato">L\'unico protocollo di trasporto supportato in questo momento è il TCP.\nScegli degli endpoint opc.tcp</string>
+    <string name="Connessione_String">Sessione</string>
+    <string name="Session_Title">Informazioni Sessione</string>
+    <string name="CreaSubscription">Crea Subscription</string>
+    <string name="URL">URL:</string>
+    <string name="SECURITYMODE">Security Mode:</string>
+    <string name="SESSIONID">SessionID:</string>
+    <string name="ERROR">ERRORE</string>
+    <string name="dialog_sub_title">Inserisci parametri Subscription</string>
+    <string name="dialog_sub_pubinterval">Publishing Interval</string>
+    <string name="dialog_sub_keepalive">Max Keep Alive Count</string>
+    <string name="dialog_sub_lifetime">Lifetime Count</string>
+    <string name="dialog_sub_notforpub">Max Notification for Publish</string>
+    <string name="dialog_sub_priority">Priority</string>
+    <string name="dialog_sub_puben">Publishing Enable</string>
+    <string name="dialog_sub_enterValidValue">Inserisci valori corretti</string>
+    <string name="dialog_sub_rispettaVincoli">Devi rispettare i vincoli:\nLifeTimeCount>3*MaxKeepAliveCount</string>
+    <string name="attendi">attendi</string>
+    <string name="creazione_subfallita">La Subscription non può essere creata</string>
+    <string name="request_timeout">Request Timeout</string>
+    <string name="card_subID">Subscription ID:</string>
+    <string name="subscription_PubInt">Publishing Interval:</string>
+    <string name="card_liftime">LifetimeCount:</string>
+    <string name="card_KeepALive">Max Keep Alive Count:</string>
+    <string name="MonitoredItem_Title">Subscription Info</string>
+    <string name="CreaMonitored">Crea Monitored Item</string>
+    <string name="card_monitoreditemID">Monitored Item ID:</string>
+    <string name="card_samplingInterval">Sampling Interval:</string>
+    <string name="card_queuesize">Queue Size:</string>
+    <string name="dialog_mi_title">Inserisci parametri Monitored item</string>
+    <string name="dialog_mi_namespace">Namespace</string>
+    <string name="dialog_mi_nodeindex">Node index</string>
+    <string name="dialog_mi_SamplingInterval">Sampling Interval</string>
+    <string name="dialog_mi_queuesize">Queue size</string>
+    <string name="dialog_mi_discardoldest">Discard Oldest</string>
+    <string name="dialog_mi_filter">Filtro</string>
+    <string name="dialog_mi_rbAbsoluteFil">Filtro assoluto</string>
+    <string name="dialog_mi_rbPercentageFil">Filtro percentuale</string>
+    <string name="dialog_mi_deadband">Deadband</string>
+    <string name="dialog_mi_timestamptype">Timestamp Type</string>
+    <string name="creazione_miFault">Creazione Monitored Item Fallita</string>
+    <string name="elimina_subscription">Elimina Subscription</string>
+    <string name="elimina_subscription_title">Elimina Subscription</string>
+    <string name="elimina_subscription_message">Vuoi elminare questa Subscription</string>
+    <string name="elimina_subscription_errore">Eliminazione Fallita</string>
+    <string name="ultime">Ultime </string>
+    <string name="letture"> letture:</string>
+    <string name="card_buf_valore">Valore: </string>
+    <string name="card_buf_sertimes">Server Timestamp: </string>
+    <string name="card_buf_sourtime">Source Timestamp: </string>
+    <string name="card_buf_status">Status: </string>
+    <string name="buff_mon_i_avviaaggiornamento">Avvia aggiornamento</string>
+    <string name="buff_mon_i_fermaaggiornamento">Ferma aggiornamento</string>
+    <string name="buff_mon_i_aggiornamentoavviato">Aggiornamento avviato</string>
+    <string name="buff_mon_i_aggiornamentoinpausa">Aggiornamento in pausa</string>
+    <string name="monitoraggio_sessione">Monitoraggio Sessione</string>
+    <string name="noNodi">Non ci sono altri nodi</string>
+    <string name="dialog_read_write_title">Informazioni Variabile</string>
+    <string name="dialog_read_write_r">Valore letto</string>
+    <string name="dialog_read_write_w">Scrivi valore</string>
+
+    <string-array name="timestamps">
+        <item>Both</item>
+        <item>Server</item>
+        <item>Source</item>
+        <item>Neither</item>
+    </string-array>
+    <string name="title_activity_session">SessionActivity</string>
+    <string name="MonitoringItem_title">Monitora Item</string>
+    <string name="browsingTitle">Browsing Server</string>
+    <string name="card_node_namespace">Namespace:</string>
+    <string name="card_node_NodeID">Node Index:</string>
+    <string name="card_node_class">Class:</string>
+    <string name="dialog_read_write_writebtntxt">Scrivi</string>
+    <string name="dialog_call_m_title">Call metodo</string>
+    <string name="dialog_call_method_input">Inserisci input:</string>
+    <string name="dialog_call">CALL</string>
+    <string name="activity_monitoring_title">Monitoring item</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_connection"
+        android:icon="@drawable/ic_connect"
+        android:title="@string/Connessione_String"/>
+
+    <item
+        android:id="@+id/nav_subscription"
+        android:icon="@drawable/ic_subscriptions"
+        android:title="@string/Subscription_String" />
+
+    <item android:id="@+id/nav_sensors"
+        android:icon="@drawable/ic_sensors"
+        android:title="@string/Sensors_String"/>
+
+</menu>

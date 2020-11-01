@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_read_write_title"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/dialog_read_write_r"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dialog_read_write_readvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Test"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/dialog_read_write_w"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/dialog_read_write_writevalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="number|text"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/dialog_read_write_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/dialog_read_write_writebtntxt" />
+
+</LinearLayout>

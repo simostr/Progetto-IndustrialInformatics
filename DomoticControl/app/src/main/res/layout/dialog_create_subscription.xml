@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sub_title"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sub_pubinterval"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/dialog_sub_pubin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dialog_sub_pubinterval"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sub_keepalive"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/dialog_sub_keepalive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dialog_sub_keepalive"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sub_lifetime"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/dialog_sub_lifetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dialog_sub_lifetime"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sub_notforpub"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/dialog_sub_notforpub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dialog_sub_notforpub"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_sub_priority"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/dialog_sub_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dialog_sub_priority"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/dialog_sub_checkPub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:enabled="false"
+        android:text="@string/dialog_sub_puben"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/dialog_sub_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CreaSubscription" />
+
+</LinearLayout>
